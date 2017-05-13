@@ -1,0 +1,131 @@
+html body { 
+  height: 100%; 
+  margin: 0; 
+  padding: 0; 
+  font-family:""Comic Sans MS", cursive, sans-serif";
+  background-color:ff0000; 
+}
+#blank{
+  height: 1000px;
+  width: 100%;
+}
+#map { 
+  height: 300px;
+  width: 50%; 
+  margin-left: 5%;
+  margin-top: 30px;
+  margin-right: 0px;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+#submit {
+	margin-left:10%;
+	margin-right:50%;
+	margin-bottom : 5%;
+	margin-top:0%;
+}
+
+#navbar {
+  margin-left: 0%
+}
+.md-padding{
+  margin-left: 5%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: ""Comic Sans MS", cursive, sans-serif";
+}
+
+.h1 { font-size: 2rem }
+.h2 { font-size: 1.5rem }
+.h3 { font-size: 1.25rem }
+.h4 { font-size: 1rem }
+.h5 { font-size: .875rem }
+.h6 { font-size: .75rem }
+
+
+
+#introduction{
+	float:left;
+}
+
+#predict{
+	float:left;
+}
+
+#vizual{
+	float:left;
+}
+
+#dashboard{
+  margin-left: 5%;
+  margin-top: 0px;
+}
+#selectionbar1,#selectionbar2{
+  margin-left:5%;
+  display: inline-block;
+}
+.md-inline-form{
+  margin-left: 5%;
+  margin-bottom: 0px;
+  display: inline-block;
+}
+.md-inline-form h1{
+  position: relative;
+  left: 5%;
+}
+.predict button {
+  margin-left: 5%;
+  display: inline-block;
+}
+#pickups {
+  margin-top: 0px;
+  margin-bottom: 20px;
+  margin-left: 5%
+}
+
+
+.toolbardemoBasicUsage md-toolbar md-icon.md-default-theme {
+  color: ff009c; 
+}
+
+.navBardemoBasicUsage md-content .ext-content {
+  padding: 10px;
+  margin: 20px;
+  background-color: #ffff00; }
+
+path {  stroke: #fff; }
+path:hover {  opacity:0.9; }
+rect:hover {  fill:blue; }
+.axis {  font: 10px sans-serif; }
+.legend tr{    border-bottom:1px solid grey; }
+.legend tr:first-child{    border-top:1px solid grey; }
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.x.axis path {  display: none; }
+.legend{
+    margin-bottom:76px;
+    display:inline-block;
+    border-collapse: collapse;
+    border-spacing: 0px;
+}
+.legend td{
+    padding:4px 5px;
+    vertical-align:bottom;
+}
+.legendFreq, .legendPerc{
+    align:right;
+    width:50px;
+}
+
